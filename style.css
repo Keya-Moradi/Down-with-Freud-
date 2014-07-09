@@ -1,0 +1,26 @@
+*, *:after, *:before {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.slide {
+    min-height: 100vh;
+    background-size: 50% auto;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
+
+}
+.slide:nth-of-type(2n+1) {
+    padding-left: 50%;
+    background-color: #BEBEBE;
+    background-position: left center;
+    background-image: url("Frued.jpg");
+}
+.slide:nth-of-type(2n) {
+    padding-right: 50%;
+    background-color: #BEBEBE;
+    background-position: right center;
+    background-image: url("131598965048_QYk9UpYk_l.jpg");
+}
+
+
